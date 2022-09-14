@@ -1,0 +1,40 @@
+body{
+    background: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#corpo{
+    /*top: -10px;*/
+    width: 900px;
+    margin: -10px auto 0 auto;
+    background: rgb(250, 244, 250);
+    padding: 10px;
+    box-shadow: 8px 3px 20px #e3afaf;
+}
+#conteudo{
+    height: 600px;
+
+}
+
+#tabela{
+    margin-top: 20px;
+    
+}
+#tabela h2{
+    text-align: center;
+}
+/*CONFIURAÇÃO DA TABELA*/
+#cadastro{
+    margin: auto;
+}
+table td{
+    width: 150px;
+    border: 1px solid #808080;
+}
+.larg{
+    width: 300px;
+}
+
+#rodape{
+    border-top: 1px solid #808080;
+    text-align: center;
+}
