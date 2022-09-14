@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro ememplo de execução</title>
-    <script src="jquery-3.6.1.min.map"></script>
+    <script src="jquery04.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="funcao.js"></script>
 </head>
@@ -17,23 +17,27 @@
                 <fieldset id="cadastrar">
                     <legend>Cadastro de Pessoa</legend>
                     <p><label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Inseri o nome completo"></p>
+                    <input type="text" class="campos" name="nome" id="nome" placeholder="Inseri o nome completo"></p>
 
                     <p>
                         <label for="bairro">Bairro:</label>
-                        <input type="text" name="bairro" id="baairro" placeholder="informe o birro">
+                        <input type="text" name="bairro" class="campos" id="bairro" placeholder="informe o birro">
                     </p>
                     <p>
                         <label for="bilhete">BI:</label>
-                        <input type="text" name="bilhete" id="bilhete" placeholder="número do bilhete">
+                        <input type="text" name="bilhete" class="campos" id="bilhete" placeholder="número do bilhete">
                     </p>
-                    <input type="button" name="btnSalvar" id="btnSalvar" value="Inserir" onclick="inserir()">
+                    <p>
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" name="telefone" class="campos" id="telefone" placeholder="número de Telefone">
+                    </p>
+                    <input type="button" name="btnSalvar" id="btnSalvar" value="Inserir Dados" onclick="inserir()">
                 </fieldset>
 
                 <div id="tabela">
                     <h2>Dados Registrados</h2>
                     <table id="cadastro">
-                        <tr><td class="larg">Nome</td><td>Bairro</td><td>Bilhete</td></tr>
+                        <tr><td id="larg">Nome</td><td>Bairro</td><td>Bilhete</td><td>Telefone</td></tr>
                     </table>
                 </div>
             </form>
